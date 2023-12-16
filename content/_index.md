@@ -62,14 +62,22 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Senior Machine Learning Engineer
-          company: Iterative Health
-          company_url: 'https://iterative.health'
-          company_logo: org-ih
-          location: Cambridge, Massachusetts
-          date_start: 'May 2019'
-          date_end: 'August 2023'
-          description: Developed image- and video-based computer vision models for endoscopy data toward detection of colorectal cancer and inflammatory bowel disease (IBD).
+        - title: Professor of Semiconductor Physics
+          company: University X
+          company_url: ''
+          company_logo: org-x
+          location: California
+          date_start: '2016-01-01'
+          date_end: '2020-12-31'
+          description: Taught electronic engineering and researched semiconductor physics.
+        # - title: Senior Machine Learning Engineer
+        #   company: Iterative Health
+        #   company_url: 'https://iterative.health'
+        #   company_logo: org-ih
+        #   location: Cambridge, Massachusetts
+        #   date_start: 'May 2019'
+        #   date_end: 'August 2023'
+        #   description: Developed image- and video-based computer vision models for endoscopy data toward detection of colorectal cancer and inflammatory bowel disease (IBD).
     design:
       columns: '2'
   - block: accomplishments
