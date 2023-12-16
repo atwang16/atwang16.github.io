@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Student
+role: PhD Candidate at Simon Fraser University
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,24 +25,26 @@ organizations:
     url: https://www.sfu.ca/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include computer vision, natural language, and health tech.
+bio: ''
 
 # Interests to show in About widget
 interests:
   - Computer Vision
   - Natural Language Processing
+  - Scene Understanding and Generation
   - Health
+  - Christianity
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD Candidate in Artificial Intelligence
+    - course: PhD Candidate in Computer Science
       institution: Simon Fraser University
       year: 2023-present
-    - course: MEng in Computer Science
+    - course: MEng in Electrical Engineering and Computer Science
       institution: Massachusetts Institute of Technology
       year: 2020
-    - course: BS in Computer Science
+    - course: BS in Computer Science and Engineering
       institution: Massachusetts Institute of Technology
       year: 2020
 
@@ -53,19 +55,39 @@ skills:
     items:
       - name: Python
         description: ''
+        percent: 90
+        icon: python
+        icon_pack: fab
+      - name: C++
+        description: ''
+        percent: 20
+        icon: python
+        icon_pack: fab
+      - name: SQL
+        description: ''
+        percent: 60
+        icon: database
+        icon_pack: fas
+      - name: Pytorch
+        description: ''
         percent: 80
         icon: python
         icon_pack: fab
-      - name: Data Science
+      - name: Version Control (Git)
         description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
+        percent: 80
+        icon: python
+        icon_pack: fab
+      - name: AWS
         description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
+        percent: 70
+        icon: python
+        icon_pack: fab
+      - name: Agile
+        description: ''
+        percent: 50
+        icon: python
+        icon_pack: fab
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
