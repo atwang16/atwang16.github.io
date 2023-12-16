@@ -65,7 +65,7 @@ sections:
         - title: Senior Machine Learning Engineer
           company: Iterative Health
           company_url: 'iterative.health'
-          company_logo: org-x
+          company_logo: org-ih
           location: Cambridge, Massachusetts
           date_start: '2019-05-01'
           date_end: '2023-08-01'
