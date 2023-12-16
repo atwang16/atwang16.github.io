@@ -62,14 +62,14 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Professor of Semiconductor Physics
-          company: University X
+        - title: Senior Machine Learning Engineer
+          company: Iterative Health
           company_url: ''
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Cambridge, Massachusetts
+          date_start: '2019-05-01'
+          date_end: '2023-08-01'
+          description: Developed image- and video-based computer vision models for endoscopy data toward detection of colorectal cancer and inflammatory bowel disease (IBD).
         # - title: Senior Machine Learning Engineer
         #   company: Iterative Health
         #   company_url: 'https://iterative.health'
