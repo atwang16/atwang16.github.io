@@ -29,15 +29,15 @@ bio: My research interests include computer vision, natural language, and health
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Computer Vision
+  - Natural Language Processing
+  - Health
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
+    - course: PhD Candidate in Artificial Intelligence
+      institution: Simon Fraser University
       year: 2023-present
     - course: MEng in Computer Science
       institution: Massachusetts Institute of Technology
@@ -70,17 +70,22 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Volleyball
         description: ''
         percent: 60
         icon: person-hiking
         icon_pack: fas
-      - name: Cats
+      - name: FIRST Robotics
         description: ''
         percent: 100
         icon: cat
         icon_pack: fas
-      - name: Photography
+      - name: Cooking
+        description: ''
+        percent: 80
+        icon: camera-retro
+        icon_pack: fas
+      - name: Music
         description: ''
         percent: 80
         icon: camera-retro
