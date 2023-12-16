@@ -94,23 +94,28 @@ skills:
     items:
       - name: Volleyball
         description: ''
-        percent: 60
+        percent: 50
         icon: person-hiking
         icon_pack: fas
       - name: FIRST Robotics
         description: ''
-        percent: 100
-        icon: cat
+        percent: 80
+        icon: robot
         icon_pack: fas
       - name: Cooking
         description: ''
-        percent: 80
+        percent: 50
         icon: camera-retro
         icon_pack: fas
       - name: Music
         description: ''
-        percent: 80
+        percent: 50
         icon: camera-retro
+        icon_pack: fas
+      - name: Biblical Studies
+        description: ''
+        percent: 30
+        icon: book
         icon_pack: fas
 
 # Social/Academic Networking
