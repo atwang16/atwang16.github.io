@@ -39,7 +39,7 @@ categories:
   - Demo
 ---
 
-!(Image credit: dinosandcomics)[dinosandcomics_projects.jpeg]
+![Image credit: dinosandcomics](dinosandcomics_projects.jpeg)
 
 If you have ever looked through my social media, you'll know that I rarely post anything about my life ever in public forums, so starting a blog is extremely uncharacteristic of me. I created this website as a whole for academic and vocational reasons primarily, but I have actually been thinking about blogging for a while now. My main motivations (or anti-motivations) are several-fold:
 
