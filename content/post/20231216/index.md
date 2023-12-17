@@ -15,7 +15,7 @@ date: '2023-12-17T09:47:00Z'
 lastmod: '2023-12-17T09:47:00Z'
 
 # Is this an unpublished draft?
-draft: true
+draft: false
 
 # Show this page in the Featured widget?
 featured: true
@@ -43,7 +43,7 @@ categories:
 
 If you have ever looked through my social media, you'll know that I rarely post anything about my life ever in public forums, so starting a blog is extremely uncharacteristic of me. I created this website as a whole for academic and vocational reasons primarily, but I have actually been thinking about blogging for a while now. My main motivations (or anti-motivations) are several-fold:
 
-1. I have a lot of internal thoughts about a wide range of topics and experiences which I would love to process, but I've never taken to journaling for extended periods of time because I've frequently felt that, while some of my thoughts do need to be processed privately, there are many that would just become an echo chamber. Some revelations need to be processed, but many are at a stage at which I have the urge to articulate them externally but for which it would do no good to just write out for myself what I already have formulated.
+1. I have a lot of internal thoughts about a wide range of topics and experiences which I would love to process, but I've never taken to journaling for extended periods of time because I've frequently felt that, while some of my thoughts do need to be processed privately, there are many that are developed enough that journaling them would just become an echo chamber. This blog will hopefully be for those ideas and revelations which are far enough in maturity to be sharable—the learnings and realizations I have had in my journey of life.
 
 2. I am not doing this blog for anyone or any audience (so don't expect posts with any regularity), but I do hope to write things that will be a blessing to other people. I have noticed that I struggle to share some of these things with people in-person, not because I am not willing to but more because (1) I don't want to bother people who don't want to listen, and (2) I've found it hard to find the right forum to have some of these conversations—some of them in quite random directions. I don't think this blog will serve as a crutch for my own social ineptness, but I will probably re-evaluate this frequently as time goes on.
 
