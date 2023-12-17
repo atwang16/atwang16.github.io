@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-date: 2022-10-24
+date: 2023-12-16
 type: landing
 
 sections:
@@ -70,14 +70,6 @@ sections:
           date_start: '2019-05-01'
           date_end: '2023-08-01'
           description: Developed image- and video-based computer vision models for endoscopy data toward detection of colorectal cancer and inflammatory bowel disease (IBD).
-        # - title: Senior Machine Learning Engineer
-        #   company: Iterative Health
-        #   company_url: 'https://iterative.health'
-        #   company_logo: org-ih
-        #   location: Cambridge, Massachusetts
-        #   date_start: 'May 2019'
-        #   date_end: 'August 2023'
-        #   description: Developed image- and video-based computer vision models for endoscopy data toward detection of colorectal cancer and inflammatory bowel disease (IBD).
     design:
       columns: '2'
   # - block: accomplishments
@@ -184,23 +176,23 @@ sections:
   #       {{< gallery album="demo" >}}
   #   design:
   #     columns: '1'
-  # - block: collection
-  #   id: featured
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     columns: '2'
-  #     view: card
+  - block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
   - block: collection
     content:
       title: Recent Publications
       text: |-
         {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
+        See more by [filtering publications](./publication/).
         {{% /callout %}}
       filters:
         folders:

@@ -61,8 +61,8 @@ skills:
       - name: C++
         description: ''
         percent: 20
-        icon: python
-        icon_pack: fab
+        icon: code
+        icon_pack: fas
       - name: SQL
         description: ''
         percent: 60
@@ -76,17 +76,17 @@ skills:
       - name: Version Control (Git)
         description: ''
         percent: 80
-        icon: python
+        icon: git-alt
         icon_pack: fab
       - name: AWS
         description: ''
         percent: 70
-        icon: python
+        icon: aws
         icon_pack: fab
       - name: Agile
         description: ''
         percent: 50
-        icon: python
+        icon: atlassian
         icon_pack: fab
   - name: Hobbies
     color: '#eeac02'
@@ -105,12 +105,12 @@ skills:
       - name: Cooking
         description: ''
         percent: 50
-        icon: camera-retro
+        icon: cauldron
         icon_pack: fas
       - name: Music
         description: ''
         percent: 50
-        icon: camera-retro
+        icon: music
         icon_pack: fas
       - name: Biblical Studies
         description: ''
