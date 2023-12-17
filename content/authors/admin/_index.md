@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Austin Wang
+title: Austin T. Wang
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -95,7 +95,7 @@ skills:
       - name: Volleyball
         description: ''
         percent: 50
-        icon: person-hiking
+        icon: volleyball
         icon_pack: fas
       - name: FIRST Robotics
         description: ''
