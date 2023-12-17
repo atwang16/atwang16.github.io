@@ -94,7 +94,7 @@ skills:
     items:
       - name: Volleyball
         description: ''
-        percent: 50
+        percent: 40
         icon: volleyball
         icon_pack: fas
       - name: FIRST Robotics
@@ -105,7 +105,7 @@ skills:
       - name: Cooking
         description: ''
         percent: 50
-        icon: cauldron
+        icon: bowl-rice
         icon_pack: fas
       - name: Music
         description: ''
@@ -114,7 +114,7 @@ skills:
         icon_pack: fas
       - name: Biblical Studies
         description: ''
-        percent: 30
+        percent: 40
         icon: book
         icon_pack: fas
 

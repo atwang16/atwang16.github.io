@@ -3,7 +3,7 @@ title: Stream of Consciousness
 subtitle: My first (and final?) blog post
 
 # Summary for listings and search engines
-summary: Inaugural blog post
+summary: Inaugural blog post!
 
 # Link this post with a project
 projects: []
@@ -12,7 +12,7 @@ projects: []
 date: '2023-12-17T09:47:00Z'
 
 # Date updated
-lastmod: '2023-12-17T09:47:00Z'
+lastmod: '2023-12-17T20:00:00Z'
 
 # Is this an unpublished draft?
 draft: false
@@ -36,8 +36,15 @@ tags:
   - Miscellaneous
 
 categories:
-  - Demo
+  - Philosophy of Life
 ---
+
+<p align = "center">
+<img src = "dinosandcomics_projects.jpeg">
+</p>
+<p align = "center">
+Image credit: Dinosaur Couch
+</p>
 
 ![Image credit: dinosandcomics](dinosandcomics_projects.jpeg)
 

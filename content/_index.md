@@ -188,6 +188,7 @@ sections:
   #     columns: '2'
   #     view: card
   - block: collection
+    id: publications
     content:
       title: Recent Publications
       text: |-
@@ -258,13 +259,13 @@ sections:
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: true
+      # form:
+      #   provider: netlify
+      #   formspree:
+      #     id:
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: false
     design:
       columns: '2'
 ---
