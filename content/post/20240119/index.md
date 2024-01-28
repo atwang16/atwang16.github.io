@@ -398,7 +398,7 @@ as standard wheels.
 <img src = "mecanum_drive.jpeg">
 </p>
 <p align = "center">
-Who uses these abominations, and why can't I get them on my car?? Seriously, you do not want to see me try to parallel park.<br>Image credit from [patentyogi.com](http://patentyogi.com/american-inventor/reinventing-wheels-mecanum-wheels-that-can-move-a-vehicle-in-any-direction/).
+Who uses these abominations, and why can't I get them on my car?? Seriously, you do not want to see me try to parallel park.<br>Image credit from patentyogi.com.
 </p>
 
 My hot take 🔥: mecanum wheels are overrated and abused by most teams who don't know how to use them properly:
