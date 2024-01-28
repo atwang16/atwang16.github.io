@@ -1,6 +1,6 @@
 ---
 title: Centerstage!
-subtitle: 2023-2024 FTC in 3 Hours
+subtitle: 2023-2024 FTC in 1 day
 
 # Summary for listings and search engines
 summary: a 1-day FIRST Tech Challenge design to the 2023-2024 season
@@ -9,10 +9,10 @@ summary: a 1-day FIRST Tech Challenge design to the 2023-2024 season
 projects: []
 
 # Date published
-date: '2024-01-19T00:00:00Z'
+date: '2024-01-28T00:00:00Z'
 
 # Date updated
-lastmod: '2024-01-19T00:00:00Z'
+lastmod: '2024-01-28T00:00:00Z'
 
 # Is this an unpublished draft?
 draft: false
@@ -43,9 +43,7 @@ categories:
 <img src = "field_topdown.png">
 </p>
 <p align = "center">
-Field setup for 2023-2024 FTC game.
-
-Image credit: FIRST
+Field setup for 2023-2024 FTC game.<br>Image credit: FIRST
 </p>
 
 In 8th grade, much to the credit of my dad, I started competing in [FIRST Tech Challenge (FTC)](https://www.firstinspires.org/robotics/ftc) as a home team with my older brother and a church friend. Even as one of the scrappiest teams around (we ran out of screws at our first tournament and made the coolest but jankiest two-stage scissor lift to grace the NorCal FTC scene), it is one of the seasons I look back at most fondly. My dad and I reminisce often about, when we left the regional championship that year, how excited I was to start the next season, despite our robot completely falling apart during the competition. Because of FTC, I found my passion in engineering, specifically computer science, and it is through FTC that I built a lot of my initial hands-on technical and interpersonal skills. Perhaps one day I will make a follow-up post on some of the things I learned? I have so many stories from those 5 years that I never get the chance to share these days except with the robot nerds I meet at tournaments a couple times a year, so this could be a fun outlet for those.
@@ -64,7 +62,9 @@ If you have never heard of FIRST Tech Challenge before, I encourage you to check
 [their website](https://www.firstinspires.org) to learn more about their suite of four programs. If you are not 
 familiar with this year's FTC game, watch the animated video below!
 
+<p align = "center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6e-5Uo1dRic?si=5xbqzV3YqqarSq0c" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
 The first critical part of approaching an FTC challenge is to understand the scoring and rules. It is easy to just see 
 the game challenge video and fixate on obvious strategies, but I find it critical to take the time to read the rules 
@@ -94,15 +94,18 @@ FIRST conveniently provides a nice scoring summary in their manual, which I have
 | Drone launch: zone 3                    | Endgame |       10 |    1 / 2 | 10 / 20 |
 
 **Autonomous total**: 125 / 175
+
 **Tele-op total**: 221
+
 **Endgame total**: 50 / 100
+
 **Match total**: 396 / 496
 
 Some useful calculations:
 * Autonomous
-* Pixel scoring on the backdrop: 80% of the max score
-* No pixel scoring in autonomous (other than pre-loaded): 80% of the max score
-* Number of tele-op pixel scores to offset autonomous scores: 7 per auto pixel (4 cycles)
+  * Pixel scoring on the backdrop: 80% of the max score
+  * No pixel scoring in autonomous (other than pre-loaded): 80% of the max score
+  * Number of tele-op pixel scores to offset autonomous scores: 7 per auto pixel (4 cycles)
 * Tele-op:
   * Number of backstage pixels to offset backdrop: 3 (3:1 cycle ratio)
   * Number of mosaics vs. set bonus: 1 mosaic per set bonus
@@ -156,6 +159,13 @@ critical to shaping gameplay:
 * GS11: the drone must be launched over a rigging or the top pole of the stage door
 
 ### Poking the Rules
+
+<p align = "center">
+<img src = "bending_the_rules.png">
+</p>
+<p align = "center">
+Some of the most successful robots come from realizing the hidden strategies in between the rules that others didn't see.<br>Image credit: Calvin and Hobbes, Bill Watterson
+</p>
 
 Now that we have enumerated the important rules, we want to see if we can poke the boundaries of what these rules allow 
 for us. Some generic questions I would ask include
@@ -331,21 +341,21 @@ keep in mind (especially for late-season strategy):
     tolerance from where it can be launched
 
 <p align = "center">
-<img src = "optimal_scoring.jpeg">
+<img src = "optimal_scoring.png">
 </p>
 <p align = "center">
-This is an example of what an optimal scoring arrangement would look like to minimize the number of pixels scored in
-order to get every mosaic and set bonus (note: height not to scale, but assume 3 rows needed per set). This arrangement
-only requires 14 white pixels, which is notable in that the driver will need to know when to go to the wing and when to
-pull from the field. With a good auto, this arrangement will look very different, given that the number of white pixels
-one can score before deviating from this is pretty small. That being said, scoring more pixels is only better, especially
-considering that you should have enough space for the other mosaics anyway. This at least proves that it is possible to 
-get every bonus with only 29 pixels, or 14 cycles not including the first one in autonomous.
-
-Note also that the colors can be permuted within the guidelines of the rules, except for the mono-yellow mosaic, which
-must be scored as such to maximize points due to the autonomous bonus. While it would be simpler to just build 5
-3-color mosaics, it will work if only one of the autonomous pixels can be placed.
+Example of optimal scoring arrangements for each auto randomization to minimize pixels required and maximize mosaic and set bonuses (note: height not to scale, but assume 3 rows needed per set).
 </p>
+
+See the above image for an example of what an optimal arrangement may be that your team targets during a game. This 
+arrangement only requires 14 white pixels, which is notable in that the driver will need to know when to go to the wing 
+and when to pull from the field. With a good auto, this arrangement will look very different, given that the number of 
+white pixels one can score before deviating from this is pretty small. That being said, scoring more pixels is only 
+better, especially considering that you should have enough space for the other mosaics anyway. This at least proves that 
+it is possible to get every bonus with only 29 pixels, or 14 cycles not including the first one in autonomous. Note 
+also that the colors can be permuted within the guidelines of the rules, except for the mono-yellow mosaic, which must 
+be scored as such to maximize points due to the autonomous bonus. While it would be simpler to just build five 3-color 
+mosaics, it will work if only one of the autonomous pixels can be placed.
 
 # Robot Design
 
@@ -388,9 +398,7 @@ as standard wheels.
 <img src = "mecanum_drive.jpeg">
 </p>
 <p align = "center">
-Who uses these abominations, and why can't I get them on my car?? Seriously, you do not want to see me try to parallel park.
-
-Image credit from [patentyogi.com](http://patentyogi.com/american-inventor/reinventing-wheels-mecanum-wheels-that-can-move-a-vehicle-in-any-direction/).
+Who uses these abominations, and why can't I get them on my car?? Seriously, you do not want to see me try to parallel park.<br>Image credit from [patentyogi.com](http://patentyogi.com/american-inventor/reinventing-wheels-mecanum-wheels-that-can-move-a-vehicle-in-any-direction/).
 </p>
 
 My hot take 🔥: mecanum wheels are overrated and abused by most teams who don't know how to use them properly:
@@ -623,9 +631,7 @@ The angle it needs to flex to should be pretty small.
 <p align = "center">
 Example of a mini-claw tool. The mechanism we want to replicate is some single extension or motorized operation which 
 causes a part to expand to fill the hole, and then when retracted automatically pulls out of the hole. There are also
-ways to do this without springs, such as with a linkage-based design.
-
-Image credit: Walmart
+ways to do this without springs, such as with a linkage-based design.<br>Image credit: Walmart
 </p>
 
 Because it is hard to align the centers with free-form pixels, we want to use a robust intake to first collect the
@@ -669,9 +675,7 @@ design.
 </p>
 <p align = "center">
 Some student somewhere is going to get carried away with making all these airplanes. Hopefully someone pulls up to a
-tournament with one that has wheels.
-
-Image credit: Foxtrot Comics
+tournament with one that has wheels.<br>Image credit: Foxtrot Comics
 </p>
 
 As one more aside, this part of the robot is fairly isolated and almost feels trivial, which in the early season will 
