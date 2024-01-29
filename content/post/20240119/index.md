@@ -649,9 +649,12 @@ beneficial to score up to the 9th row in practice, and to fill all 9 rows such t
 would require 58 pixels to be scored, which is more than half of the pixels and thus, with optimal placement, likely to
 already secure you victory, if you could even score that many).
 
-There is certainly a tradeoff in some of the above criteria between design simplicity and optimal placement. This would
+There is certainly a tradeoff in some of the above criteria between design simplicity and optimal placement, and for
+what it is worth, my designs tend to be much more complicated and overengineered than they need to be 😅. This would all
 need to be evaluated more carefully in prototypes to determine the differences in cycle time compared to the complexities
-of the solutions.
+of the solutions, as there may be simpler designs (e.g. just dumping the pixels out of a hopper) which achieve sufficiently 
+good precision for creating mosaics. Only testing will really tell what will work and what won't, and a precise design
+will only work well if the drivers don't actually need to do more work to get more control.
 
 ## Drone Launcher
 
@@ -698,6 +701,11 @@ specifications for the design:
 * You should consider where the hooks are located relative to the centroid of the robot. If the weight of the robot is
   off, then you will have to hang higher in order to get off the ground. Minimizing the lift time will be critical with
   last-minute scoring.
+* Reuse of a mechanism can be beneficial for simplicity of design (e.g. reusing the same lift as is being used for pixel
+  scoring). The reason for avoiding this would be to avoid single-point failures and put less stress on a single 
+  mechanism, especially since a lift which needs to hold the robot's weight has more stringent requirements than one
+  which is only required for pixel scoring. This is probably a reasonable way to go if the team feels confident enough
+  in building a strong lift design.
 
 Design-wise, I would personally test either a spring-loaded mechanism to rotate up a hook connected directly to a winch,
 or I would use a passive mechanism (though space management might be hard for this). For a spring-loaded design, one
