@@ -16,5 +16,5 @@ url_pdf: 'https://arxiv.org/pdf/2405.17537'
 url_code: 'https://github.com/3dlg-hcvc/bioscan-clip'
 links:
 - name: Project
-- url: https://3dlg-hcvc.github.io/bioscan-clip/
+  url: https://3dlg-hcvc.github.io/bioscan-clip/
 ---

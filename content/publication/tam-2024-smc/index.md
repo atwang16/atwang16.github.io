@@ -15,5 +15,5 @@ url_pdf: 'https://arxiv.org/pdf/2408.02211'
 url_code: 'https://github.com/3dlg-hcvc/smc'
 links:
 - name: Project
-- url: https://3dlg-hcvc.github.io/smc/
+  url: https://3dlg-hcvc.github.io/smc/
 ---

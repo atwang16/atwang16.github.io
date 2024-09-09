@@ -23,5 +23,5 @@ url_pdf: 'https://arxiv.org/pdf/2406.12723'
 url_code: 'https://github.com/zahrag/BIOSCAN-5M'
 links:
 - name: Project
-- url: https://biodiversitygenomics.net/5M-insects/
+  url: https://biodiversitygenomics.net/5M-insects/
 ---
