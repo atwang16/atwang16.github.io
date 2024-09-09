@@ -69,7 +69,7 @@ Before I talk about game analysis, I got to go to my first FTC kickoff since 201
 The first step is to understand the game! You can watch the animated video for this season below!
 
 <p align = "center">
-<iframe width="560" height="315" src="https://youtu.be/ewlDPvRK4U4" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ewlDPvRK4U4?si=JvQs8rJTXf9dFDVW" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
 The main components here are to understand the scoring and rules so we can formulate a strategy and parameters for our design.
