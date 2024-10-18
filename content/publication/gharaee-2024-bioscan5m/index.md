@@ -18,7 +18,7 @@ date: '2024-06-18'
 publishDate: '2024-06-23T00:00:00.000000Z'
 publication_types:
 - paper-conference
-publication: '*ArXiv*'
+publication: '*Advances in Neural Information Processing Systems*'
 url_pdf: 'https://arxiv.org/pdf/2406.12723'
 url_code: 'https://github.com/zahrag/BIOSCAN-5M'
 links:
