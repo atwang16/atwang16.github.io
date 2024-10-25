@@ -42,14 +42,21 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: skills
+  - block: collection
+    id: publications
     content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
+      title: Recent Publications
+      text: |-
+        {{% callout note %}}
+        See more by [filtering publications](./publication/).
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
     design:
-      columns: '1'
+      columns: '2'
+      view: citation
   - block: experience
     content:
       title: Experience
@@ -72,6 +79,14 @@ sections:
           description: Developed image- and video-based computer vision models for endoscopy data toward detection of colorectal cancer and inflammatory bowel disease (IBD).
     design:
       columns: '2'
+  - block: skills
+    content:
+      title: Skills
+      text: ''
+      # Choose a user to display skills from (a folder name within `content/authors/`)
+      username: admin
+    design:
+      columns: '1'
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -187,31 +202,16 @@ sections:
   #   design:
   #     columns: '2'
   #     view: card
-  - block: collection
-    id: publications
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        See more by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     columns: '2'
+  #     view: compact
   # - block: tag_cloud
   #   content:
   #     title: Popular Topics
