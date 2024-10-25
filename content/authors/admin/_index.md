@@ -29,11 +29,10 @@ bio: ''
 
 # Interests to show in About widget
 interests:
-  - Computer Vision
+  - Computer Vision (2D and 3D)
   - Natural Language Processing
   - Scene Understanding and Generation
-  - Health
-  - Christianity
+  - Health and Biology
 
 # Education to show in About widget
 education:
