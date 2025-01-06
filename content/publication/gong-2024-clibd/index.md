@@ -1,5 +1,5 @@
 ---
-title: 'BIOSCAN-CLIP: Bridging Vision and Genomics for Biodiversity Monitoring at Scale'
+title: 'CLIBD: Bridging Vision and Genomics for Biodiversity Monitoring at Scale'
 authors:
 - ZeMing Gong
 - Austin T. Wang
@@ -13,8 +13,8 @@ publication_types:
 - paper-conference
 publication: '*ArXiv*'
 url_pdf: 'https://arxiv.org/pdf/2405.17537'
-url_code: 'https://github.com/3dlg-hcvc/bioscan-clip'
+url_code: 'https://github.com/3dlg-hcvc/clibd'
 links:
 - name: Project
-  url: https://3dlg-hcvc.github.io/bioscan-clip/
+  url: https://3dlg-hcvc.github.io/clibd/
 ---
