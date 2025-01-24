@@ -11,7 +11,7 @@ date: '2024-05-27'
 publishDate: '2024-06-15T00:00:00.000000Z'
 publication_types:
 - paper-conference
-publication: '*Proceedings of the International Conference on Learning Representations (ICLR)*'
+publication: '*Proceedings of the International Conference on Learning Representations (ICLR 2025)*'
 url_pdf: 'https://arxiv.org/pdf/2405.17537'
 url_code: 'https://github.com/3dlg-hcvc/clibd'
 links:
