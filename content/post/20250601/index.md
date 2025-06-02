@@ -3,7 +3,7 @@ title: What Do You Fear the Most?
 # subtitle: 
 
 # Summary for listings and search engines
-# summary: 
+summary: Reflections on a trip to Boston
 
 # Link this post with a project
 projects: []
