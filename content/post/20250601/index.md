@@ -58,4 +58,4 @@ Besides affirming how right God was then, I share this to say that I think sayin
 
 So here I am on the plane, saying yet another goodbye to my favorite people in Boston. Hopefully it's far from the last one, but since I can't know for sure, I'll let the weight of it sit and treat it with the reverence it deserves.
 
-[^1]: I have another as well which is closely tied, but that's for another post.
+[^1]: I have another as well which is closely tied, but that's for another post. :)
