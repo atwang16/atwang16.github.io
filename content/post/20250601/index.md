@@ -1,0 +1,61 @@
+---
+title: What Do You Fear the Most?
+# subtitle: No, not rollercoasters
+
+# Summary for listings and search engines
+summary: fear of saying goodbye
+
+# Link this post with a project
+projects: []
+
+# Date published
+date: '2025-06-01T00:00:00Z'
+
+# Date updated
+lastmod: '2025-06-01T00:00:00Z'
+
+# Is this an unpublished draft?
+draft: false
+
+# Show this page in the Featured widget?
+featured: true
+
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+image:
+  caption: 'Credit: dinosandcomics'
+  focal_point: ''
+  placement: 2
+  preview_only: true
+
+authors:
+  - admin
+
+tags:
+  - Blog
+  - Reflections
+
+categories:
+  - Reflections
+---
+
+<p align = "center">
+<img src = "fear.png">
+</p>
+<p align = "center">
+Story of my life (Credit: dinosandcomics)
+</p>
+
+Back when I was in MIT ACF, we used to play Hot Seat at retreats. For the unfamiliar, each person would sit in the "hot seat" at the center of the circle and, for 1 minute, anyone could ask them a question. While in other contexts this could get quite spicy 😅, my seniors in ACF were very gracious and genuine with their questions.
+
+One of the questions they asked me my freshman year was about what I feared the most. At the time, I said "loneliness," and indeed that has been true for a large part of my college and post-college life. But in reflecting back, I realized that God has equipped me since then and has blessed me with many relationships in each place he's brought me to—MIT, post-college Boston, and now Vancouver. I'm writing this part of the post on my flight back from Boston, and I'm incredibly thankful to be able to come back and be welcomed and loved in the way that I was, more than I could express and more than I deserve. Loneliness is still no fun, but there is little doubt in my mind now that I'm actually alone.
+
+So I think my answer has changed, somewhat subtly, from "being lonely" to "saying goodbye" (the worst being those I'm not ready to say, which might be all of them)[^1]. Of all the things in my life, I think I could part with every material thing with (eventual) peace. But people and relationships are precious, and when something feels precious to someone, the natural response is to hold on tightly to it. We may make plans to reunite, but since when are we really in control of anything in this life?
+
+Perhaps leaving Vancouver was my first step into learning how to say some goodbyes. It's incredible actually to think back to how God was working then. When I started thinking about applying for grad school in 2021, I asked God if he could open doors for me to stay in Boston for school, and he told me instead that I could stay by delaying applying for a year. I ended up doing just that, and I'm thankful I did. I always knew, though, that it meant that my time in Boston for that season would end come the following year.
+
+Besides affirming how right God was then, I share this to say that I think saying goodbye was always part of his plan for me, so that I could welcome new lessons and new people. Slowly but surely, he has been teaching me to appreciate with open hands the people I am blessed to walk with, when I get to walk with them. That journey together is a privilege and a blessing, not a given. I'll never know when the final goodbye is, but I trust that, through Jesus, one day my final goodbye will turn into a hello forever.
+
+So here I am on the plane, saying yet another goodbye to my favorite people in Boston. Hopefully it's far from the last one, but since I can't know for sure, I'll let the weight of it sit and treat it with the reverence it deserves.
+
+[^1]: I have another as well which is closely tied, but that's for another post.
