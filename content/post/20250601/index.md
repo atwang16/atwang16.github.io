@@ -40,7 +40,7 @@ categories:
 ---
 
 <p align = "center">
-<img src = "fear.png">
+<img src = "fear.jpg">
 </p>
 <p align = "center">
 Story of my life (Credit: dinosandcomics)
