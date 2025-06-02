@@ -1,9 +1,9 @@
 ---
 title: What Do You Fear the Most?
-# subtitle: No, not rollercoasters
+# subtitle: 
 
 # Summary for listings and search engines
-summary: fear of saying goodbye
+# summary: 
 
 # Link this post with a project
 projects: []
@@ -43,7 +43,7 @@ categories:
 <img src = "fear.jpg">
 </p>
 <p align = "center">
-Story of my life (Credit: dinosandcomics)
+Story of my life 😬 (Credit: dinosandcomics)
 </p>
 
 Back when I was in MIT ACF, we used to play Hot Seat at retreats. For the unfamiliar, each person would sit in the "hot seat" at the center of the circle and, for 1 minute, anyone could ask them a question. While in other contexts this could get quite spicy 😅, my seniors in ACF were very gracious and genuine with their questions.
