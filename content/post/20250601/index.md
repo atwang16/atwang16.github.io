@@ -40,7 +40,7 @@ categories:
 ---
 
 <p align = "center">
-<img src = "fear.jpg">
+<img src = "fear.jpg" alt="fear of loneliness and relationships - dinosandcomics">
 </p>
 <p align = "center">
 Story of my life yikes (Credit: dinosandcomics)
