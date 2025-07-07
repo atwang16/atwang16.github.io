@@ -19,9 +19,11 @@ Build the website:
 python generate_site.py --build-site
 ```
 
-To open the website locally, open [output/index.html].
+To open the website locally, go to [output/index.html](output/index.html).
 
 ## To Do
--[ ] Create a page for all of the blog posts
--[ ] Port remaining blog posts from old website
--[ ] Create resumé from `website.yaml`
+
+- [ ] Create a page for all of the blog posts
+- [ ] Port remaining blog posts from old website
+- [ ] Create resumé from `website.yaml`
+- [ ] Create a dark mode for the website
