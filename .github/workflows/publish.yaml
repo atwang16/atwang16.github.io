@@ -43,6 +43,11 @@ jobs:
     - name: Build with Python
       run: |
         python generate_site.py --build-site --output output
+        sleep 2  # Give filesystem time to sync
+    - name: Verify build output
+      run: |
+        ls -la output/
+        test -f output/index.html && echo "index.html exists" || echo "ERROR: index.html missing"
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
