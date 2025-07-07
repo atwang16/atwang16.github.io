@@ -35,7 +35,7 @@
           <div class="column is-4 bordered-bottom bordered-right">
             <span class="subtitle is-bold">Affiliation</span>
             <p class="is-size-7">
-              {{ website_and_cv.position }} in the <a href="{{ website_and_cv.department_url }}">{{ website_and_cv.department_name }}</a> at <a href="{{ website_and_cv.university_url }}">{{ website_and_cv.university_name }}</a>.
+              {{ website_and_cv.position }} in the <a href="{{ website_and_cv.department_url }}" target="_blank">{{ website_and_cv.department_name }}</a> at <a href="{{ website_and_cv.university_url }}" target="_blank">{{ website_and_cv.university_name }}</a>.
             </p>
           </div>
         </div>
@@ -136,7 +136,7 @@
                 {% endfor %}. "{{ pub.title }}", <i>{{ pub.conference }}</i>, {{ pub.date }}.
 
                 {% for source in pub.urls %}
-                    {% if not loop.first %}| {% endif %}<a href="{{ source.url }}">{{ source.type }}</a>
+                    {% if not loop.first %}| {% endif %}<a href="{{ source.url }}" target="_blank">{{ source.type }}</a>
                 {% endfor %}
               </li>
               {% endfor %}
@@ -152,7 +152,7 @@
                 {% endfor %}. "{{ pub.title }}", <i>{{ pub.event_name }}</i>, {{ pub.date }}.
 
                 {% for source in pub.urls %}
-                    {% if not loop.first %}| {% endif %}<a href="{{ source.url }}">{{ source.type }}</a>
+                    {% if not loop.first %}| {% endif %}<a href="{{ source.url }}" target="_blank">{{ source.type }}</a>
                 {% endfor %}
               </li>
               {% endfor %}
@@ -168,7 +168,7 @@
                 {% endfor %}. "{{ pub.title }}", <i>{{ pub.journal }}</i>, {{ pub.date }}.
 
                 {% for source in pub.urls %}
-                    {% if not loop.first %}| {% endif %}<a href="{{ source.url }}">{{ source.type }}</a>
+                    {% if not loop.first %}| {% endif %}<a href="{{ source.url }}" target="_blank">{{ source.type }}</a>
                 {% endfor %}
               </li>
               {% endfor %}
@@ -182,7 +182,7 @@
         <div class="columns is-centered">
           <div class="column is-6 has-text-centered">
             <p class="is-size-7" style="color: #999; margin-top: 2em;">
-              Website template adapted from <a href="https://nickmvincent.com/" style="color: #999;">Nick Vincent</a>
+              Website template adapted from <a href="https://nickmvincent.com/" style="color: #999;" target="_blank">Nick Vincent</a>
             </p>
           </div>
         </div>
