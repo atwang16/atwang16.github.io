@@ -109,15 +109,15 @@ def main():
     # Render the website template.
     if args.build_site:
         home_page_data = deepcopy(website_data)
-        home_page_data["website_and_cv"][
-            "profile_image_url"
-        ] = f"../{home_page_data['website_and_cv']['profile_image_url']}"
+        # home_page_data["website_and_cv"][
+        #     "profile_image_url"
+        # ] = f"../{home_page_data['website_and_cv']['profile_image_url']}"
         site_html = render_template("index.html.jinja", home_page_data, templates_dir=args.templates_dir)
         site_output_path = os.path.join(args.output, "index.html")
         save_output(site_html, site_output_path)
 
         blog_common_data = deepcopy(common)
-        blog_common_data["profile_image_url"] = f"../../{blog_common_data['profile_image_url']}"
+        blog_common_data["profile_image_url"] = f"../{blog_common_data['profile_image_url']}"
         for post in web_extra.get("blog_posts", []):
             source_folder = post["source"]
             source_folder_full = os.path.join(args.blog_folder, source_folder)

@@ -29,7 +29,7 @@ website_and_cv:
       url: "https://x.com/atwang_cs"
     - platform: "linkedin"
       url: "https://www.linkedin.com/in/austin-wang-234b3b162/"
-  bio: "Austin Wang is a Ph.D. student at Simon Fraser University, advised by Angel X. Chang. His research interests include computer vision and natural language, including scene understanding and generation, and applications of AI to health."
+  bio: "Austin Wang is a Ph.D. student at Simon Fraser University, advised by Angel X. Chang. His research interests include computer vision and natural language, including scene understanding and generation, and applications of AI to health.  Previously, he worked as a senior machine learning engineer applying computer vision to healthcare, including developing and deploying models to solve ML problems in gastroenterology as well as leading technical projects."
   education:
     - degree: "Ph.D. in Computing Science"
       institution: "Simon Fraser University"
@@ -240,6 +240,10 @@ web_only:
       url: "https://atwang16.github.io/20250601-fear/"
       date: "June 2025"
       source: "20250601-fear"
+    - title: "Stream of Consciousness"
+      url: "https://atwang16.github.io/20231216-intro/"
+      date: "Dec 2023"
+      source: "20231216-intro"
   multimedia:
     - type: "Video"
       title: "A New Grand Data Bargain for Public Interest AI - Talk Recording for SFU DDI"
