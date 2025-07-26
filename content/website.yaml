@@ -217,6 +217,7 @@ website_and_cv:
 
 web_only:
   recent_news:
+    - "[ICCV CLVL workshop challenge](https://iccv-clvl.github.io/2025/) released for Multi3DRefer and ViGiL3D [here](https://www.codabench.org/competitions/9829/)"
     - ViGiL3D accepted to ACL 2025 -- poster session on July 28 (11 AM)
     - CLIBD presented at ICLR 2025
   news_coverage: 
