@@ -239,6 +239,7 @@ web_only:
   blog_posts:
     - title: "Pockets of Heaven (and the Chaotic Beauty of Revelation 7)"
       url: "https://atwang16.github.io/20250802-acl/"
+      date: "August 2025"
       source: "20250802-acl"
     - title: "What Do You Fear the Most?"
       url: "https://atwang16.github.io/20250601-fear/"
