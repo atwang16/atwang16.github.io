@@ -140,6 +140,24 @@ website_and_cv:
           - url: "https://bioscan-browser.netlify.app/"
             type: "browser"
     workshop:
+      - title: "Hyperbolic Multimodal Representation Learning for Biological Taxonomies"
+        authors:
+          - "ZeMing Gong"
+          - "Chuanqi Tang"
+          - "Xiaoliang Huo"
+          - "Nicholas Pellegrino"
+          - "Austin T. Wang"
+          - "Graham W. Taylor"
+          - "Angel X. Chang"
+          - "Scott C. Lowe"
+          - "Joakim Bruslund Haurum"
+        date: "2025"
+        fulldate: "2025-08-22"
+        event_name: "Beyond Euclidean: Hyperbolic and Hyperspherical Learning for Computer Vision @ ICCV 2025"
+        event_url: "https://sites.google.com/view/beyondeuclidean/home"
+        urls:
+          - url: "https://arxiv.org/abs/2508.16744"
+            type: "arxiv"
       - title: "BarcodeBERT: Transformers for Biodiversity Analysis"
         authors:
           - "Pablo Millan Arias"
@@ -217,8 +235,8 @@ website_and_cv:
 
 web_only:
   recent_news:
-    - "<a href=\"https://iccv-clvl.github.io/2025/\">ICCV CLVL workshop challenge</a> released for Multi3DRefer and ViGiL3D <a href=\"https://www.codabench.org/competitions/9829/\">here</a>"
-    - ViGiL3D accepted to ACL 2025 -- poster session on July 28 (11 AM)
+    - Paper on hyperbolic representations for biological taxonomies accepted to ICCV workshop 2025
+    - ViGiL3D accepted to ACL 2025
     - CLIBD presented at ICLR 2025
   news_coverage: 
     # (You can re-use the same news_coverage as in website_and_cv if desired.)
