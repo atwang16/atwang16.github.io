@@ -133,7 +133,7 @@
                 {% for author in pub.authors -%}
                   {%- if not loop.first %}, {% endif %}
                   {%- if author == website_and_cv.name %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif -%}
-                {% endfor %}. "{{ pub.title }}", <i>{{ pub.conference }}</i>, {{ pub.date }}.
+                {% endfor %}. "{{ pub.title }}". <i>{{ pub.conference }}</i>, {{ pub.date }}.
 
                 {% for source in pub.urls %}
                     {% if not loop.first %}| {% endif %}<a href="{{ source.url }}" target="_blank">{{ source.type }}</a>
