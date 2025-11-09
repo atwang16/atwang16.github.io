@@ -64,6 +64,7 @@ website_and_cv:
         conference: "WACV"
         date: "2026"
         fulldate: "2026-03-06"
+        conference_url: "https://wacv.thecvf.com/"
         urls:
           - url: "https://arxiv.org/abs/2409.19104"
             type: "arxiv"
@@ -80,9 +81,10 @@ website_and_cv:
           - "Austin T. Wang"
           - "Angel X. Chang"
           - "Manolis Savva"
-        journal: "3DV"
         date: "2026"
         fulldate: "2026-03-20"
+        conference: "3DV"
+        conference_url: "https://3dvconf.github.io/2026/"
         urls:
           - url: "https://arxiv.org/abs/2503.16848"
             type: "arxiv"
