@@ -54,6 +54,42 @@ website_and_cv:
     - biblical studies
   publications:
     archival:
+      - title: "SceneEval: Evaluating semantic coherence in text-conditioned 3D indoor scene synthesis"
+        authors:
+          - "Hou In Ivan Tam"
+          - "Hou In Derek Pun"
+          - "Austin T. Wang"
+          - "Angel X. Chang"
+          - "Manolis Savva"
+        journal: "WACV"
+        date: "2026"
+        fulldate: "2025-03-18"
+        urls:
+          - url: "https://arxiv.org/abs/2409.19104"
+            type: "arxiv"
+          - url: "https://github.com/3dlg-hcvc/SceneEval"
+            type: "code"
+          - url: "https://github.com/3dlg-hcvc/SceneEval/releases"
+            type: "data"
+          - url: "https://3dlg-hcvc.github.io/SceneEval/"
+            type: "project"
+      - title: "HSM: Hierarchical Scene Motifs for Multi-Scale Indoor Scene Generation"
+        authors:
+          - "Hou In Derek Pun"
+          - "Hou In Ivan Tam"
+          - "Austin T. Wang"
+          - "Angel X. Chang"
+          - "Manolis Savva"
+        journal: "3DV"
+        date: "2026"
+        fulldate: "2025-03-21"
+        urls:
+          - url: "https://arxiv.org/abs/2503.16848"
+            type: "arxiv"
+          - url: "https://github.com/3dlg-hcvc/hsm"
+            type: "code"
+          - url: "https://3dlg-hcvc.github.io/hsm/"
+            type: "project"
       - title: "ViGiL3D: A Linguistically Diverse Dataset for 3D Visual Grounding"
         authors:
           - "Austin T. Wang"
@@ -184,43 +220,6 @@ website_and_cv:
           - url: "https://docs.openwebui.com/"
             type: "project"
     other:
-      - title: "SceneEval: Evaluating semantic coherence in text-conditioned 3D indoor scene synthesis"
-        authors:
-          - "Hou In Ivan Tam"
-          - "Hou In Derek Pun"
-          - "Austin T. Wang"
-          - "Angel X. Chang"
-          - "Manolis Savva"
-        journal: "arXiv preprint"
-        date: "2025"
-        fulldate: "2025-03-18"
-        urls:
-          - url: "https://arxiv.org/abs/2409.19104"
-            type: "arxiv"
-          - url: "https://github.com/3dlg-hcvc/SceneEval"
-            type: "code"
-          - url: "https://github.com/3dlg-hcvc/SceneEval/releases"
-            type: "data"
-          - url: "https://3dlg-hcvc.github.io/SceneEval/"
-            type: "project"
-      - title: "HSM: Hierarchical Scene Motifs for Multi-Scale Indoor Scene Generation"
-        authors:
-          - "Hou In Derek Pun"
-          - "Hou In Ivan Tam"
-          - "Austin T. Wang"
-          - "Angel X. Chang"
-          - "Manolis Savva"
-        journal: "arXiv preprint"
-        date: "2025"
-        fulldate: "2025-03-21"
-        urls:
-          - url: "https://arxiv.org/abs/2503.16848"
-            type: "arxiv"
-          - url: "https://github.com/3dlg-hcvc/hsm"
-            type: "code"
-          - url: "https://3dlg-hcvc.github.io/hsm/"
-            type: "project"
-
       - title: "Real-time computer-aided polyp detection and localization for clinical applications"
         authors:
           - "Austin T. Wang"
@@ -235,9 +234,10 @@ website_and_cv:
 
 web_only:
   recent_news:
-    - Paper on hyperbolic representations for biological taxonomies accepted to ICCV workshop 2025
-    - ViGiL3D accepted to ACL 2025
-    - CLIBD presented at ICLR 2025
+    - SceneEval accepted to WACV 2026
+    - HSM accepted to 3DV 2026
+    - Paper on hyperbolic representations for biological taxonomies accepted to Imageomics and FM4LS NeurIPS 2025 workshops and AIS2025
+
   news_coverage: 
     # (You can re-use the same news_coverage as in website_and_cv if desired.)
     # - title: "OpenAI Is Reaping What It Sowed With DeepSeek"
